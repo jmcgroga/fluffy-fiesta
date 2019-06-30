@@ -1,10 +1,10 @@
 ---
-title: Scheduling
+title: Startup
 taxonomy:
     category: docs
 ---
 
-Container Linux replaces cron with [systemd timers](https://coreos.com/os/docs/latest/scheduling-tasks-with-systemd-timers.html?target=_blank).  [Getting started with systemd](https://coreos.com/os/docs/latest/getting-started-with-systemd.html) contains examples of enabling, starting, and stopping containers.  [Docker container as a Linux system service](https://blog.marcnuri.com/docker-container-as-linux-system-service/) uses `docker start -a`/`docker stop` to start/stop containers.
+[Getting started with systemd](https://coreos.com/os/docs/latest/getting-started-with-systemd.html) contains examples of enabling, starting, and stopping containers.  [Docker container as a Linux system service](https://blog.marcnuri.com/docker-container-as-linux-system-service/) uses `docker start -a`/`docker stop` to start/stop containers.
 
 ## Example
 
